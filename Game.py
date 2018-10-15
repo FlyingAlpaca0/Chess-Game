@@ -1,3 +1,8 @@
+#Type the chess notation for the location of the piece you want to move followed by the destination with no spaces
+#For example to start with King's pawn to e4, give your input as e2e4
+#The reason for this is that regular chess notation is insufficient here as it requires some level of human judgement
+#The type of inout notation used here can be expanded to a drag and drop type of input if a GUI is added to this game
+
 import Piece
 
 class Game:
